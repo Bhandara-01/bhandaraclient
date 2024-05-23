@@ -113,16 +113,12 @@ h2 {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
   line-height: 3rem;
-  text-align: left;
+  /* text-align: left; */
 
 }
 
 
-.navbar-toggler:focus {
-  text-decoration: none;
-  outline: 0;
-  box-shadow: none !important;
-}
+
 
 h4 {
   font-family: var(--secondary-font);
@@ -161,6 +157,18 @@ a {
 
 
 
+
+
+
+.drop{
+  transition: 0.3s ease-out;
+}
+
+.drop:hover i{
+  transform: rotate(180deg);
+  transition: 0.3s ease-out;
+  
+}
 
 
  
